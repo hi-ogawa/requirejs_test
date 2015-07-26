@@ -1,11 +1,11 @@
 !!! 5
 %html
   %head
+    %title require.js experiments
+    %script{'data-main' => 'scripts/main.js',
+            'src' => 'scripts/require.js'}
   %body
     %p testing require.js
-    %ul
-      %li read articles
-      %li write by myself
-      %li what else
-    %p this is not so easy.
-    %button
+    %button#f0 fire f0 in mylib0
+    %button#g0 fire g0 in mylib0
+    %button#main fire main
